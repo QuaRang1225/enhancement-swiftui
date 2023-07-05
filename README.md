@@ -1,3 +1,3 @@
 # EX_SwiftUI
 
-example swiftui code
+- example swiftui code
