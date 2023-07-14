@@ -1,0 +1,616 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		811FACB92A60605500F67547 /* JejuMapAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 811FACB82A60605500F67547 /* JejuMapAppApp.swift */; };
+		811FACBB2A60605500F67547 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 811FACBA2A60605500F67547 /* ContentView.swift */; };
+		811FACBD2A60605600F67547 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 811FACBC2A60605600F67547 /* Assets.xcassets */; };
+		811FACC02A60605600F67547 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 811FACBF2A60605600F67547 /* Preview Assets.xcassets */; };
+		811FACCA2A60605600F67547 /* JejuMapAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 811FACC92A60605600F67547 /* JejuMapAppTests.swift */; };
+		811FACD42A60605700F67547 /* JejuMapAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 811FACD32A60605700F67547 /* JejuMapAppUITests.swift */; };
+		811FACD62A60605700F67547 /* JejuMapAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 811FACD52A60605700F67547 /* JejuMapAppUITestsLaunchTests.swift */; };
+		811FACE32A6060D200F67547 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 811FACE22A6060D200F67547 /* LocationManager.swift */; };
+		811FACE62A606D4900F67547 /* CustomAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 811FACE52A606D4900F67547 /* CustomAnnotation.swift */; };
+		811FACE82A61087D00F67547 /* StartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 811FACE72A61087C00F67547 /* StartView.swift */; };
+		811FACEA2A6108FE00F67547 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 811FACE92A6108FE00F67547 /* RootView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		811FACC62A60605600F67547 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 811FACAD2A60605500F67547 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 811FACB42A60605500F67547;
+			remoteInfo = JejuMapApp;
+		};
+		811FACD02A60605700F67547 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 811FACAD2A60605500F67547 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 811FACB42A60605500F67547;
+			remoteInfo = JejuMapApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		811FACB52A60605500F67547 /* JejuMapApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JejuMapApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		811FACB82A60605500F67547 /* JejuMapAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JejuMapAppApp.swift; sourceTree = "<group>"; };
+		811FACBA2A60605500F67547 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		811FACBC2A60605600F67547 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		811FACBF2A60605600F67547 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		811FACC52A60605600F67547 /* JejuMapAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JejuMapAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		811FACC92A60605600F67547 /* JejuMapAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JejuMapAppTests.swift; sourceTree = "<group>"; };
+		811FACCF2A60605700F67547 /* JejuMapAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JejuMapAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		811FACD32A60605700F67547 /* JejuMapAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JejuMapAppUITests.swift; sourceTree = "<group>"; };
+		811FACD52A60605700F67547 /* JejuMapAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JejuMapAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		811FACE22A6060D200F67547 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		811FACE42A60613C00F67547 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		811FACE52A606D4900F67547 /* CustomAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAnnotation.swift; sourceTree = "<group>"; };
+		811FACE72A61087C00F67547 /* StartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartView.swift; sourceTree = "<group>"; };
+		811FACE92A6108FE00F67547 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		811FACB22A60605500F67547 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		811FACC22A60605600F67547 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		811FACCC2A60605700F67547 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		811FACAC2A60605500F67547 = {
+			isa = PBXGroup;
+			children = (
+				811FACB72A60605500F67547 /* JejuMapApp */,
+				811FACC82A60605600F67547 /* JejuMapAppTests */,
+				811FACD22A60605700F67547 /* JejuMapAppUITests */,
+				811FACB62A60605500F67547 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		811FACB62A60605500F67547 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				811FACB52A60605500F67547 /* JejuMapApp.app */,
+				811FACC52A60605600F67547 /* JejuMapAppTests.xctest */,
+				811FACCF2A60605700F67547 /* JejuMapAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		811FACB72A60605500F67547 /* JejuMapApp */ = {
+			isa = PBXGroup;
+			children = (
+				811FACE42A60613C00F67547 /* Info.plist */,
+				811FACB82A60605500F67547 /* JejuMapAppApp.swift */,
+				811FACBA2A60605500F67547 /* ContentView.swift */,
+				811FACBC2A60605600F67547 /* Assets.xcassets */,
+				811FACBE2A60605600F67547 /* Preview Content */,
+				811FACE22A6060D200F67547 /* LocationManager.swift */,
+				811FACE52A606D4900F67547 /* CustomAnnotation.swift */,
+				811FACE72A61087C00F67547 /* StartView.swift */,
+				811FACE92A6108FE00F67547 /* RootView.swift */,
+			);
+			path = JejuMapApp;
+			sourceTree = "<group>";
+		};
+		811FACBE2A60605600F67547 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				811FACBF2A60605600F67547 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		811FACC82A60605600F67547 /* JejuMapAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				811FACC92A60605600F67547 /* JejuMapAppTests.swift */,
+			);
+			path = JejuMapAppTests;
+			sourceTree = "<group>";
+		};
+		811FACD22A60605700F67547 /* JejuMapAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				811FACD32A60605700F67547 /* JejuMapAppUITests.swift */,
+				811FACD52A60605700F67547 /* JejuMapAppUITestsLaunchTests.swift */,
+			);
+			path = JejuMapAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		811FACB42A60605500F67547 /* JejuMapApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 811FACD92A60605700F67547 /* Build configuration list for PBXNativeTarget "JejuMapApp" */;
+			buildPhases = (
+				811FACB12A60605500F67547 /* Sources */,
+				811FACB22A60605500F67547 /* Frameworks */,
+				811FACB32A60605500F67547 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JejuMapApp;
+			productName = JejuMapApp;
+			productReference = 811FACB52A60605500F67547 /* JejuMapApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		811FACC42A60605600F67547 /* JejuMapAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 811FACDC2A60605700F67547 /* Build configuration list for PBXNativeTarget "JejuMapAppTests" */;
+			buildPhases = (
+				811FACC12A60605600F67547 /* Sources */,
+				811FACC22A60605600F67547 /* Frameworks */,
+				811FACC32A60605600F67547 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				811FACC72A60605600F67547 /* PBXTargetDependency */,
+			);
+			name = JejuMapAppTests;
+			productName = JejuMapAppTests;
+			productReference = 811FACC52A60605600F67547 /* JejuMapAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		811FACCE2A60605700F67547 /* JejuMapAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 811FACDF2A60605700F67547 /* Build configuration list for PBXNativeTarget "JejuMapAppUITests" */;
+			buildPhases = (
+				811FACCB2A60605700F67547 /* Sources */,
+				811FACCC2A60605700F67547 /* Frameworks */,
+				811FACCD2A60605700F67547 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				811FACD12A60605700F67547 /* PBXTargetDependency */,
+			);
+			name = JejuMapAppUITests;
+			productName = JejuMapAppUITests;
+			productReference = 811FACCF2A60605700F67547 /* JejuMapAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		811FACAD2A60605500F67547 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					811FACB42A60605500F67547 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					811FACC42A60605600F67547 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 811FACB42A60605500F67547;
+					};
+					811FACCE2A60605700F67547 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 811FACB42A60605500F67547;
+					};
+				};
+			};
+			buildConfigurationList = 811FACB02A60605500F67547 /* Build configuration list for PBXProject "JejuMapApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 811FACAC2A60605500F67547;
+			productRefGroup = 811FACB62A60605500F67547 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				811FACB42A60605500F67547 /* JejuMapApp */,
+				811FACC42A60605600F67547 /* JejuMapAppTests */,
+				811FACCE2A60605700F67547 /* JejuMapAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		811FACB32A60605500F67547 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				811FACC02A60605600F67547 /* Preview Assets.xcassets in Resources */,
+				811FACBD2A60605600F67547 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		811FACC32A60605600F67547 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		811FACCD2A60605700F67547 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		811FACB12A60605500F67547 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				811FACBB2A60605500F67547 /* ContentView.swift in Sources */,
+				811FACE82A61087D00F67547 /* StartView.swift in Sources */,
+				811FACEA2A6108FE00F67547 /* RootView.swift in Sources */,
+				811FACB92A60605500F67547 /* JejuMapAppApp.swift in Sources */,
+				811FACE32A6060D200F67547 /* LocationManager.swift in Sources */,
+				811FACE62A606D4900F67547 /* CustomAnnotation.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		811FACC12A60605600F67547 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				811FACCA2A60605600F67547 /* JejuMapAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		811FACCB2A60605700F67547 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				811FACD42A60605700F67547 /* JejuMapAppUITests.swift in Sources */,
+				811FACD62A60605700F67547 /* JejuMapAppUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		811FACC72A60605600F67547 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 811FACB42A60605500F67547 /* JejuMapApp */;
+			targetProxy = 811FACC62A60605600F67547 /* PBXContainerItemProxy */;
+		};
+		811FACD12A60605700F67547 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 811FACB42A60605500F67547 /* JejuMapApp */;
+			targetProxy = 811FACD02A60605700F67547 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		811FACD72A60605700F67547 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		811FACD82A60605700F67547 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		811FACDA2A60605700F67547 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"JejuMapApp/Preview Content\"";
+				DEVELOPMENT_TEAM = N676ZFA7W8;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = JejuMapApp/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "여경&영웅제주여행";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = quarang.JejuMapApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		811FACDB2A60605700F67547 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"JejuMapApp/Preview Content\"";
+				DEVELOPMENT_TEAM = N676ZFA7W8;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = JejuMapApp/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "여경&영웅제주여행";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = quarang.JejuMapApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		811FACDD2A60605700F67547 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N676ZFA7W8;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = quarang.JejuMapAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JejuMapApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/JejuMapApp";
+			};
+			name = Debug;
+		};
+		811FACDE2A60605700F67547 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N676ZFA7W8;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = quarang.JejuMapAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JejuMapApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/JejuMapApp";
+			};
+			name = Release;
+		};
+		811FACE02A60605700F67547 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N676ZFA7W8;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = quarang.JejuMapAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = JejuMapApp;
+			};
+			name = Debug;
+		};
+		811FACE12A60605700F67547 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N676ZFA7W8;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = quarang.JejuMapAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = JejuMapApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		811FACB02A60605500F67547 /* Build configuration list for PBXProject "JejuMapApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				811FACD72A60605700F67547 /* Debug */,
+				811FACD82A60605700F67547 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		811FACD92A60605700F67547 /* Build configuration list for PBXNativeTarget "JejuMapApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				811FACDA2A60605700F67547 /* Debug */,
+				811FACDB2A60605700F67547 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		811FACDC2A60605700F67547 /* Build configuration list for PBXNativeTarget "JejuMapAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				811FACDD2A60605700F67547 /* Debug */,
+				811FACDE2A60605700F67547 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		811FACDF2A60605700F67547 /* Build configuration list for PBXNativeTarget "JejuMapAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				811FACE02A60605700F67547 /* Debug */,
+				811FACE12A60605700F67547 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 811FACAD2A60605500F67547 /* Project object */;
+}
