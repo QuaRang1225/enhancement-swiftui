@@ -9,7 +9,8 @@ import Firebase
 import FirebaseFirestoreSwift
 
 struct User:Identifiable,Codable{
-    @DocumentID var id: String?
+    
+    @DocumentID var id: String?     //UUID().toString FireStore의 문서 ID 매핑가능
     let email:String
     let username:String
     let nickname:String

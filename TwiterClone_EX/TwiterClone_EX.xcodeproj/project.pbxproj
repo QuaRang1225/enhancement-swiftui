@@ -10,6 +10,7 @@
 		813F9C1C29224D8700062E9C /* UserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 813F9C1B29224D8700062E9C /* UserService.swift */; };
 		813F9C1E292258F300062E9C /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 813F9C1D292258F300062E9C /* User.swift */; };
 		813F9C21292269DF00062E9C /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 813F9C20292269DF00062E9C /* Kingfisher */; };
+		814506B3295B83DD00EE3EAE /* TestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 814506B2295B83DD00EE3EAE /* TestView.swift */; };
 		8171E531291D8BE500CD1E63 /* ProfileSelectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8171E530291D8BE500CD1E63 /* ProfileSelectView.swift */; };
 		8171E534291D8EB500CD1E63 /* ImgaePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8171E533291D8EB500CD1E63 /* ImgaePicker.swift */; };
 		8171E536291D9BD400CD1E63 /* ImageUploader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8171E535291D9BD400CD1E63 /* ImageUploader.swift */; };
@@ -77,6 +78,7 @@
 /* Begin PBXFileReference section */
 		813F9C1B29224D8700062E9C /* UserService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserService.swift; sourceTree = "<group>"; };
 		813F9C1D292258F300062E9C /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		814506B2295B83DD00EE3EAE /* TestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestView.swift; sourceTree = "<group>"; };
 		8171E530291D8BE500CD1E63 /* ProfileSelectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileSelectView.swift; sourceTree = "<group>"; };
 		8171E533291D8EB500CD1E63 /* ImgaePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImgaePicker.swift; sourceTree = "<group>"; };
 		8171E535291D9BD400CD1E63 /* ImageUploader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageUploader.swift; sourceTree = "<group>"; };
@@ -226,6 +228,7 @@
 		819F26ED291A60940078E70E /* Extention */ = {
 			isa = PBXGroup;
 			children = (
+				814506B2295B83DD00EE3EAE /* TestView.swift */,
 			);
 			path = Extention;
 			sourceTree = "<group>";
@@ -644,6 +647,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				819F2706291A6F590078E70E /* MessagesView.swift in Sources */,
+				814506B3295B83DD00EE3EAE /* TestView.swift in Sources */,
 				81FA35D129237AC8000EA16D /* UploadViewModel.swift in Sources */,
 				819F270A291A728C0078E70E /* ProfileView.swift in Sources */,
 				813F9C1C29224D8700062E9C /* UserService.swift in Sources */,

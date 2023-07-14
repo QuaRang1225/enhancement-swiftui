@@ -8,10 +8,15 @@
 import SwiftUI
 
 struct MainTabView: View {
-    @State private var selectedIndex = 0
+    @State private var selectedIndex = 1
+    
+    init(){
+        UITabBar.appearance().backgroundColor = .gray
+    }
     var body: some View {
         TabView(selection: $selectedIndex){
             FeedView()
+                .toolbarBackground(.red, for: .tabBar)
                 .onTapGesture {
                     self.selectedIndex = 0
                 }
@@ -39,12 +44,14 @@ struct MainTabView: View {
                 .tabItem{
                     Image(systemName : "message.fill")
                 }.tag(3)
-        }
+        }.accentColor(.red)
     }
 }
 
 struct MainTabView_Previews: PreviewProvider {
     static var previews: some View {
-        MainTabView()
+            MainTabView()
+        
+        
     }
 }

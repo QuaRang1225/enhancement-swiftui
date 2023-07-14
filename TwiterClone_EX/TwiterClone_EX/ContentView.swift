@@ -16,20 +16,43 @@ struct ContentView: View {
     var body: some View {
         Group{  //뷰가 11개 이상일때 컴파일 오류가 뜨는것을 방지
             //로그인이 안되있을 때
-            if vm.userSession == nil{
-                LoginView()
+//            ZStack{
+//                if vm.userSession == nil{
+//                    LoginView()
+//                }
+//                //로그인이 되어있을 때
+//                else{
+//                    mainInterfaceView
+//                    Button {
+//                        vm.logOut()
+//                    } label: {
+//                        Image(systemName: "heart")
+//                            .resizable()
+//                            .scaledToFit()
+//                            .frame(width: 100,height: 100)
+//                    }
+//                }
+//
+//
+//            }
+            Button {
+                vm.logOut()
+            } label: {
+                Image(systemName: "heart")
+                    .resizable()
+                    .scaledToFit()
+                    .frame(width: 100,height: 100)
             }
-            //로그인이 되어있을 때
-            else{
-                mainInterfaceView
-            }
+            mainInterfaceView
+
+            
         }
     }
 }
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        NavigationView{
+        NavigationStack{
             ContentView()
         }.environmentObject(AuthViewModel())
     }
@@ -51,10 +74,13 @@ extension ContentView{
                 }
                 .ignoresSafeArea()
             }
-            SideMenuView() 
+            SideMenuView()
                 .frame(width: 300)
                 .offset(x:showMenu ? 0: -300)
                 .background(showMenu ?  Color.black:Color.clear)
+            
+            
+            
         }
         .navigationTitle("홈")
         .navigationBarTitleDisplayMode(.inline)
@@ -76,7 +102,7 @@ extension ContentView{
             }
         }
         .onAppear{
-           showMenu = false //홈화면 이동시 메뉴창 닫기
+            showMenu = false //홈화면 이동시 메뉴창 닫기
         }
     }
 }

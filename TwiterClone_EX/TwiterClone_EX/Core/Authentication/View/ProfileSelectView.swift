@@ -39,7 +39,7 @@ struct ProfileSelectView: View {
                                         .modifier(ProfileImageModifier())
                                     Button {
                                         vm.imageUpload(image)
-                                        print("DEBUG : 회원가입 성공")
+                                        print("DEBUG : 회원가입 성공 \(image)")
                                     } label: {
                                         Text("완료")
                                             .font(.headline)
